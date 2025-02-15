@@ -5,8 +5,13 @@
 function Header() {
     return (
         <header>
-            <nav>
+            <nav className="nav">
                 <img src="react-icon.png" className="react-logo"></img>
+                <ul className="nav-items">
+                    <li>Pricing</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
             </nav>
         </header>
     )
@@ -21,7 +26,7 @@ function Footer() {
 function MainContent() {
     return (
         <div>
-            <h1>Reasons I'm excited to learn React</h1>
+            <h1 className="head">Reasons I'm excited to learn React</h1>
             <hr></hr>
             <h4>What you will learn:</h4>
             <ol>

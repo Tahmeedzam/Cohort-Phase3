@@ -10,10 +10,31 @@ h1 {
 }
 
 .react-logo {
-
+    /* margin: 20; */
     width: 70px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+}
+
+.nav-items>li {
+    padding: 10px;
 }
 
 .homePage {
     margin: 40px 0px 0px 40px;
+}
+
+.head {
+    padding-top: 20px;
 }
