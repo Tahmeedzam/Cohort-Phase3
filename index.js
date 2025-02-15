@@ -1,10 +1,27 @@
 // 1hr 7mins
 
-function HomePage() {
+
+
+function Header() {
     return (
-        <div className="homePage">
-            <img src="react-icon.png" className="react-logo"></img>
-            <h1>Welcome to React Master class</h1>
+        <header>
+            <nav>
+                <img src="react-icon.png" className="react-logo"></img>
+            </nav>
+        </header>
+    )
+}
+
+function Footer() {
+    return (
+        <footer> <small>© 2025 Zamindar development. All rights reserved.</small></footer>
+    )
+}
+
+function MainContent() {
+    return (
+        <div>
+            <h1>Reasons I'm excited to learn React</h1>
             <hr></hr>
             <h4>What you will learn:</h4>
             <ol>
@@ -13,6 +30,15 @@ function HomePage() {
                 <li>Use high Styling methods</li>
                 <li>Backend</li>
             </ol>
+        </div>
+    )
+}
+function HomePage() {
+    return (
+        <div>
+            <Header />
+            <MainContent />
+            <Footer />
         </div>
     )
 }
