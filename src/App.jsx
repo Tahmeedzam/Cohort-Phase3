@@ -1,3 +1,5 @@
+// 55 min
+
 import React from 'react';
 import Navbar from './components/navbar';
 import Hero from './components/Hero';
